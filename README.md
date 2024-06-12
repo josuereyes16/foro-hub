@@ -8,18 +8,17 @@
 
 | Features | Características |
 |---------|---------|
-| - Search book by title: Allows searching for books by title in the API and registering them in the database. | - Buscar libro por título: Permite buscar libros por su título en la API y registrarlos en la base de datos.
-| - List registered books: Displays all books registered in the database. | - Listar libros registrados: Muestra todos los libros registrados en la base de datos.
-| - List registered authors: Displays all authors registered in the database. | - Listar autores registrados: Muestra todos los autores registrados en la base de datos.
-| - List living authors in a specific year: Allows filtering authors who were alive in a specific year. | - Listar autores vivos en un año específico: Permite filtrar autores que estaban vivos en un año determinado.
-| - List books by language: Classifies registered books by language. | - Listar libros por idioma: Clasifica los libros registrados por idioma.
+| - List topics: Displays a list of all topics created in the database.	|- Listar tópicos: Muestra una lista de todos los tópicos creados en la base de datos.
+|- Create topic: Allows authenticated users to create new topics.	|- Crear tópico: Permite a los usuarios autenticados crear nuevos tópicos.
+|- Delete topic: Allows authenticated users to delete existing topics.|	- Eliminar tópico: Permite a los usuarios autenticados eliminar tópicos existentes.
+|- Authentication: Uses JWT for secure authentication and authorization.	|- Autenticación: Utiliza JWT para autenticación y autorización segura.|
 
 
 ---
 
 | Installation | Instalación |
 |---------|---------|
-| Clone the repository: git clone https://github.com/tu_usuario/foro-api-rest.git	|Clonar el repositorio: git clone https://github.com/tu_usuario/foro-api-rest.git|
+| Clone the repository: `git clone https://github.com/josuereyes16/foro-hub.git`	|Clonar el repositorio: `git clone https://github.com/josuereyes16/foro-hub.git` |
 |Navigate to the project directory: cd foro-api-rest	|Navegue al directorio del proyecto: cd foro-api-rest|
 |Create a project in Spring Initializr:	|Crear un proyecto en Spring Initializr:|
 |`Visit start.spring.io.` <br> `Select Maven, Java, and the latest version of Spring Boot.` <br> `Add dependencies: Spring Web, Spring Data JPA, and Spring Security.` |	`Visite start.spring.io.` <br> `Seleccione Maven, Java y la última versión de Spring Boot. `<br> `Agregue dependencias: Spring Web, Spring Data JPA y Spring Security.`|
