@@ -45,3 +45,5 @@
 |Create new topics after authenticating with JWT.	|Crea nuevos tópicos después de autenticarse con JWT.|
 |Delete existing topics after authenticating with JWT.|	Elimina tópicos existentes después de autenticarse con JWT.|
 |Authenticate users to ensure secure access to endpoints. | Autentica usuarios para asegurar acceso seguro a los endpoints.|
+
+
